@@ -1,0 +1,12 @@
+{
+  "name": "scuemart",
+  "version": "1.0.0",
+  "type" : "module",
+  "description": "eCommerce app built with MERNstack",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "SCUEMANT",
+  "license": "MIT"
+}
