@@ -3,6 +3,7 @@ import __dirname from './utils/environment.js';
 import connectDB from './config/db.js';
 import productRoutes from "./router/productRoutes.js";
 import userRoutes from "./router/userRoutes.js" ;
+import orderRoutes from "./router/orderRoutes.js"
 import {notFound, errorHandler} from "../backend/middleware/errorMiddleware.js";
 import cookieParser from 'cookie-parser';
 const port= process.env.PORT || 5000;
@@ -25,6 +26,7 @@ app.get("/",(req,res)=>{
 
 app.use("/api/products", productRoutes);
 app.use("/api/users", userRoutes );
+app.use("/api/orders", orderRoutes);
 
 app.use(notFound);
 app.use(errorHandler);
