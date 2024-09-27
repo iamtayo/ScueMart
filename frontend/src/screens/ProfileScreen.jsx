@@ -8,7 +8,7 @@ import Loader from "../components/Loader";
 import { useProfileMutation } from "../slices/userApiSlice";
 import { setCredentials } from "../slices/authSlice";
 import { useGetMyOrderQuery } from "../slices/orderApiSlice";
-import {FaTimes} from "react-icons/fa"
+import {FaTimes} from "react-icons/fa";
 
 const ProfileScreen = () => {
     const [name, setName] = useState("");
