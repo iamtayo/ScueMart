@@ -71,7 +71,7 @@ return (
       <Meta title={product.name}/>
       <Row>
       <Col md={5}>
-          <Image src ={product.image} alt="Product Image" fluid/>
+          <Image src ={product.image}  /* style={{width : "600px",height : "540px"}}*/ alt="Product Image" fluid/>
       </Col>
       <Col md={4}>
          <ListGroup variant="flush">
